@@ -1,0 +1,15 @@
+{
+    "name": "Track Network Requests",
+    "version": "1.0",
+    "description": "Allows you to track all network requests on enabled tabs",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "images/icon_inactive.png"
+    },
+    "permissions": ["tabs"],
+    "devtools_page": "devtools.html"
+}
